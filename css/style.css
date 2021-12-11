@@ -445,6 +445,13 @@ header {
     margin-bottom: 2em;
 }
 
+/*  Additional In progress certificates */
+.additional_trainings{
+    color: var(--clr-dark);
+   /* justify-content: center; */
+    padding: 2em;
+}
+
 /* My Work 
 ###############################################################*/
 
