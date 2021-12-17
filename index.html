@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         
-        
+        <!-- Update these with your own fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="style.css">
@@ -28,6 +28,7 @@
                     <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
                     <li class="nav__item"><a href="#award" class="nav__link">My Certificates</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#footer" class="nav__link">Contact Me</a></li>
                 </ul>
             </nav>
         </header>
@@ -104,27 +105,38 @@
         <section class="my-award" id="award">
             <h2 class="section__title section__title--award">My Awards & Certifications</h2>
             <p class="section__subtitle section__subtitle--award">A selection of my certifications</p>
-            
+            <!-- Portfolio award 01 -->
+          
             <div class="portfolio_awards" id="awards">
-                <!-- Portfolio award 01 -->
+              
+               <!-- Was trying to embed pdf on site
+                   <embed class="embed" style="width:308px; min-height: 300px; padding:35px; " src="caronAzureFundamentals.pdf" type="application/pdf"></embed>
+                --> 
+                
+                <!-- Portfolio award 02 -->
                 <a href="index.html#award" class="portfolio_award">
                     <img src="award-TCP.png" alt="Caron Sathekge's Huawei TCP-IP Certificate" class="portfolio__award__img">
                 </a>
                 
-                <!-- Portfolio award 02 -->
+                <!-- Portfolio award 03 -->
                 <a href="index.html#award" class="portfolio_award">
                     <img src="award-Datacom.png" alt="Caron Sathekge's Huawei Data Communications Certificate" class="portfolio__award__img">
                 </a>
 
+                <!-- Portfolio award 04 -->
                 <a href="index.html#award" class="portfolio_award">
                     <img src="award-WLAN.png" alt="Caron Sathekge's Huawei WLAN Certificate" class="portfolio__award__img">
+                </a>
+
+                <a href="index.html#award" class="portfolio_award">
+                    <img src="caronAzureFundamentals.png" alt="Caron's Azure Fundamentals Certificate from SimpliLearn" class="portfolio__award__img">
                 </a>
                     
                 </div>
 
              <!--Will un-comment them after adding more Items  
 
-                <a href="portfolio-item.html" class="portfolio__item">
+                <a href="index.html#award" class="portfolio__award">
                     <img src="img/caronProfilePic.png" alt="" class="portfolio__award__img">
                 </a>
                 
@@ -133,13 +145,14 @@
                 <div class="add_training">
                     <h3>Additional Trainings</h3>
                     <p> 1. AWS Certified Practitioner [ Certification In progress]<br>
-                        2. Azure Fundamentals [ Certification In Progress ] <br>
-                        3. Huawei HCIA Cloud Computing V4.0 Course [ Certification In Progress ] <br>
-                        4. Huawei HCIA Artificial Intelligence V3.0 Course [ Certification In Progress ] <br>
-                        5. Huawei HCIA Storage V4.5 Course [ Certification In Progress ] <br>
-                        6. Huawei HCIA Big Data V3.0 Course [ Certification In Progress ] <br>
+                        2. Comptia Network+ Training [ Certification In progress ] <br>
+                        3. CompTIA A+ Training [ Certification In Progress ] <br>
+                    <!--   4. Huawei HCIA Cloud Computing V4.0 Course [ Certification In Progress ] <br>
+                        5. Huawei HCIA Artificial Intelligence V3.0 Course [ Certification In Progress ] <br>
+                        6. Huawei HCIA Storage V4.5 Course [ Certification In Progress ] <br>
+                        7. Huawei HCIA Big Data V3.0 Course [ Certification In Progress ] <br>
                         7. Information Security Computer Forensic Examiner Training [Cert. In Progress]<br>
-                        8. Comptia Network+ Training [ Certification In progress ] 
+                    -->    
                     </p>
                 </div> <!-- / service -->
             </div>
@@ -200,7 +213,7 @@
         
         
         <!-- Footer -->
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <!-- replace with your own email address -->
             <a href="mailto:caronsathekge28@gmail.com" class="footer__link">Email Me!</a>
             <h3><br>My social media pages</h3>
