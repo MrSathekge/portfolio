@@ -420,12 +420,12 @@ header {
     color: var(--clr-light);
     text-align: center;    
 }
-
+/*
 .embed{
     display: grid;
     overflow: hidden;
     max-height: 500px;
-}
+}*/
 
 .portfolio_awards {
     display: grid;
