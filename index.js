@@ -13,4 +13,4 @@ navLinks.forEach(link => {
 
 
 //serve the html pages
-app.use(serveStatic(path.join(__dirname, 'dist')))
+// app.use(serveStatic(path.join(__dirname, 'dist')))
