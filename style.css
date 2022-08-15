@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #76b6ff;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -434,7 +434,7 @@ header {
 }
 /*each individual award within the portfolio awards*/
 .portfolio_award{
-    background: var(--clr-accent);
+    background: var(--clr-dark);
     overflow: hidden;
     padding: 35px;
 }
